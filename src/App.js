@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import FoodSection from "./components/FoodSection";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import { Route, Routes } from "react-router-dom";
+import AboutSection from "./components/AboutSection";
+import ClothingSection from "./components/ClothingSection";
+import Accessories from "./components/Accessories";
+import MoreSection from "./components/MoreSection";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<>
+			<Header />
+			<Routes>
+				<Route path="/" element={<AboutSection />}></Route>
+				<Route path="foods" element={<FoodSection />}></Route>
+				<Route path="clothing" element={<ClothingSection />}></Route>
+				<Route path="accessories" element={<Accessories />}></Route>
+				<Route path="more" element={<MoreSection />}></Route>
+			</Routes>
+			<Footer />
+		</>
+	);
 }
 
 export default App;
