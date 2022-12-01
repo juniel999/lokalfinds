@@ -3,6 +3,10 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LanguageIcon from "@mui/icons-material/Language";
+
 const productVariant = {
 	visible: { opacity: 1, scale: 1, x: 0, transition: { duration: 0.5 } },
 	hidden: { opacity: 0, scale: 0, x: 90 },
@@ -43,11 +47,54 @@ const Product = ({ location, img_url, name, urls, about }) => {
 				</p>
 				<p>
 					Links:{" "}
-					{urls.map((url) => (
-						<a href={url} key={url} className="text-xs block text-blue-600">
-							{url.slice(0, 50) + ".."}
+					{urls.lazada ? (
+						<a
+							href={urls.lazada}
+							key={urls.lazada}
+							className="text-xs block text-blue-600 inline-block align-middle"
+						>
+							<img
+								src="/imgs/lazada.png"
+								alt="lazada logo"
+								className="h-[20px]"
+							/>
 						</a>
-					))}
+					) : (
+						""
+					)}
+					{urls.instagram ? (
+						<a
+							href={urls.instagram}
+							key={urls.instagram}
+							className="text-xs block text-blue-600 inline-block align-middle"
+						>
+							<InstagramIcon />
+						</a>
+					) : (
+						""
+					)}
+					{urls.facebook ? (
+						<a
+							href={urls.facebook}
+							key={urls.facebook}
+							className="text-xs block text-blue-600 inline-block align-middle"
+						>
+							<FacebookIcon />
+						</a>
+					) : (
+						""
+					)}
+					{urls.web ? (
+						<a
+							href={urls.web}
+							key={urls.web}
+							className="text-xs block text-blue-600 inline-block align-middle"
+						>
+							<LanguageIcon />
+						</a>
+					) : (
+						""
+					)}
 				</p>
 			</div>
 		</motion.div>

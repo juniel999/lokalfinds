@@ -6,6 +6,7 @@ import AboutSection from "./components/AboutSection";
 import ClothingSection from "./components/ClothingSection";
 import Accessories from "./components/Accessories";
 import MoreSection from "./components/MoreSection";
+import LookingFor from "./components/LookingFor";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 				<Route path="clothing" element={<ClothingSection />}></Route>
 				<Route path="accessories" element={<Accessories />}></Route>
 				<Route path="more" element={<MoreSection />}></Route>
+				<Route path="lookingfor" element={<LookingFor />}></Route>
 			</Routes>
 			<Footer />
 		</>

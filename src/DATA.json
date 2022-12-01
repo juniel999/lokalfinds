@@ -4,7 +4,9 @@
 		"business_name": "Lucky Theo’s Food Products",
 		"location": "Banna, Ilocos Norte",
 		"about": "Lucky Theo’s Food Product’s started as a Family-owned Business at the year 2006. Tourists enjoy the taste of Banana, Camote, and Taro Chips! More local products at Lucky Theo's store in Banna!",
-		"urls": ["https://web.facebook.com/Suerte16"],
+		"urls": {
+			"facebook": "https://web.facebook.com/Suerte16"
+		},
 		"img": "/imgs/lucky_theo.jpg"
 	},
 	{
@@ -12,10 +14,10 @@
 		"business_name": "Nana Rosa’s Chichacorn",
 		"location": "Batac City, Ilocos Norte",
 		"about": "Nana Rosa's Chichacorn business started as selling 'binatog' but her income was not enough. With her ingenuity in finding ways to sell more, she developed the crispy and crunchy 'cornik' that is well known today. Chichacorn comes in garlic, cheese barbecue, sweet and spicy.",
-		"urls": [
-			"https://web.facebook.com/nanarosacornick",
-			"https://s.lazada.com.ph/s.5O28v"
-		],
+		"urls": {
+			"facebook": "https://web.facebook.com/nanarosacornick",
+			"lazada": "https://s.lazada.com.ph/s.5O28v"
+		},
 		"img": "/imgs/nana_rosa.jpg"
 	},
 	{
@@ -23,10 +25,10 @@
 		"business_name": "MakeSense Pop up",
 		"location": "Angeles City, Pampanga",
 		"about": "MakeSense Pop up's journey started to unfold when (she) decided of doing something that she's good at and that she enjoys doing. This started off the making of her product: Pinoy style salsa. Mexican/Filipino style salsa that the Filipino palate would enjoy because Pinoys like to eat pika pika foods.",
-		"urls": [
-			"https://www.facebook.com/MakeSensePopUp",
-			"https://www.instagram.com/makesensepopup/?fbclid=IwAR0xxVlIf08-6mz1gPpMaGSuY8YdhrOQUbf3LpPRppjIPnMwlKwPz4Ggcxc"
-		],
+		"urls": {
+			"facebook": "https://www.facebook.com/MakeSensePopUp",
+			"instagram": "https://www.instagram.com/makesensepopup/?fbclid=IwAR0xxVlIf08-6mz1gPpMaGSuY8YdhrOQUbf3LpPRppjIPnMwlKwPz4Ggcxc"
+		},
 		"img": "/imgs/make_sense.jpg"
 	},
 	{
@@ -34,7 +36,9 @@
 		"business_name": "Desert730",
 		"location": "Montalban Rizal",
 		"about": "Desert730 sells pastries and desserts to satisfy your cravings. Their main product and bestseller is Korean Garlic Bread, a bread filled with creamcheese with a twist of garlic flavor.",
-		"urls": ["https://www.facebook.com/dessert730"],
+		"urls": {
+			"facebook": "https://www.facebook.com/dessert730"
+		},
 		"img": "/imgs/Desert730.jpg"
 	},
 	{
@@ -42,7 +46,9 @@
 		"business_name": "Ilocos Pastries",
 		"location": "Batac City, Ilocos Norte",
 		"about": "Ilocos Pastries is a bakery since 2015. Their specialty are cakes and other sweet pastries. They do made-to-order themed cakes, occasional cakes and cakes in a tub.",
-		"urls": ["https://www.facebook.com/ilocospastries.inc"],
+		"urls": {
+			"facebook": "https://www.facebook.com/ilocospastries.inc"
+		},
 		"img": "/imgs/ilocos_pastries.jpg"
 	},
 	{
@@ -50,11 +56,11 @@
 		"business_name": "Iya Sevilla Crafts and Yarns",
 		"location": "Mandaluyong/Calamba",
 		"about": "Iya Sevilla makes handmade crochet bags made of t-shirt yarns. Her story inspires other struggling moms that they can do both: take care of your babies while doing what you love profitably.",
-		"urls": [
-			"https://www.facebook.com/iyacraftsevilla/",
-			"https://instagram.com/iyacraftsevilla?r=nametag",
-			"https://vt.tiktok.com/ZSRe93UEt/"
-		],
+		"urls": {
+			"facebook": "https://www.facebook.com/iyacraftsevilla/",
+			"instagram": "https://instagram.com/iyacraftsevilla?r=nametag",
+			"tiktok": "https://vt.tiktok.com/ZSRe93UEt/"
+		},
 		"img": "/imgs/iya_sevilla.jpg"
 	},
 	{
@@ -62,10 +68,10 @@
 		"business_name": "K.bits",
 		"location": "Las Piñas City",
 		"about": "K.bits is all about beaded accessories. They make mask lanyards, a face mask holder. They also make custom accessories like necklaces, bracelets, rings, phone charms, anklets, keychains, and earrings.",
-		"urls": [
-			"https://www.facebook.com/k.bits.ph",
-			"https://instagram.com/k.bits.ph?igshid=YmMyMTA2M2Y="
-		],
+		"urls": {
+			"facebook": "https://www.facebook.com/k.bits.ph",
+			"instagram": "https://instagram.com/k.bits.ph?igshid=YmMyMTA2M2Y="
+		},
 		"img": "/imgs/k_bits.jpg"
 	},
 	{
@@ -73,7 +79,9 @@
 		"business_name": "KolHabi - Binakol Crafts",
 		"location": "San Jose Sarrat, Ilocos Norte",
 		"about": "Kolhabi makes binakol textile into elegant Filipiniana barongs and dresses. Binakol is a traditional hand-loom woven textile. Appreciate our Philippine textiles crafted into different bags, pouches, wallets, and cellphone cases.",
-		"urls": ["https://web.facebook.com/binakolsjmpc?_rdc=1&_rdr"],
+		"urls": {
+			"facebook": "https://web.facebook.com/binakolsjmpc?_rdc=1&_rdr"
+		},
 		"img": "/imgs/kol_habi.jpg"
 	},
 	{
@@ -81,7 +89,9 @@
 		"business_name": "KAWES by: Manang Adjie",
 		"location": "Pasig, Philippines",
 		"about": "'Kawes' is an Ilocano word that means clothing. Accentuated with beautiful Philippine weaves, Mg Adjie makes fashion and designs that surely stand out.",
-		"urls": ["https://web.facebook.com/kawesnimanangAdjie?_rdc=1&_rdr"],
+		"urls": {
+			"facebook": "https://web.facebook.com/kawesnimanangAdjie?_rdc=1&_rdr"
+		},
 		"img": "/imgs/kawes.jpg"
 	},
 	{
@@ -89,10 +99,10 @@
 		"business_name": "National Food Fair",
 		"location": "#EatLocal #BuyLocal #GoLokal",
 		"about": "Check this out! The DTI Philippines Bureau of Domestic Trade Promotion (BDTP) is collaborating with the Lazada Philippines as the official e-commerce partner for the Hybrid National Trade Fair 2022!",
-		"urls": [
-			"tinyurl.com/nationalfoodfaironlazada",
-			"https://web.facebook.com/DTI.BDTP"
-		],
+		"urls": {
+			"facebook": "https://web.facebook.com/DTI.BDTP",
+			"web": "tinyurl.com/nationalfoodfaironlazada"
+		},
 		"img": "/imgs/national_trade.jpg"
 	}
 ]
